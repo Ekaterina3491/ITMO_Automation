@@ -30,3 +30,4 @@ def znaki(f, g, h):
         print("No")
 
 znaki(3, 7, 11)
+
