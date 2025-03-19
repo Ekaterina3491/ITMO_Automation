@@ -1,33 +1,34 @@
-def maxnumber(a, b):
+def max_of_two_numbers(a, b):
      if a > b:
          print("a")
      else:
          print("b")
-maxnumber(4, 3)
+max_of_two_numbers(4, 3)
 
-def raznost(c, d):
-     if c-d == 135:
+def  check_difference(c, d):
+     if (c-d) == 135 or c-d == -135:
          print("Yes")
      else:
          print("No")
-raznost(270, 135)
 
-def sezon(e):
-    if e == 12 or e == 1 or e == 2:
+check_difference(135, 270)
+
+def season_by_month(month_number):
+    if month_number == 12 or month_number == 1 or month_number == 2:
         print("Зима")
-    elif e in range(3, 6):
+    elif month_number in range(3, 6):
         print("Весна")
-    elif e in range(6, 9):
+    elif month_number in range(6, 9):
         print("Лето")
-    elif e in range(9, 12):
+    elif month_number in range(9, 12):
         print("Осень")
-sezon(1)
+season_by_month(1)
 
-def znaki(f, g, h):
+def check_all_greater(f, g, h):
     if f > 10 and g > 10 and h > 10:
         print ("Yes")
     else:
         print("No")
 
-znaki(3, 7, 11)
+check_all_greater(3, 7, 11)
 
